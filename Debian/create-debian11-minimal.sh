@@ -11,7 +11,7 @@ virt-install \
 --disk /srv/kvm/debian11-minimal.qcow2 \
 --vcpus 2 \
 --memory 2048 \
---network default \
+--network default,mac=52:54:00:6c:3c:01 \
 --graphics spice \
 --os-type=Linux \
 --os-variant=debian10
